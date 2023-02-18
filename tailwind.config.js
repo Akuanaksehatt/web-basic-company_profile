@@ -20,7 +20,14 @@ module.exports = {
         'primary-blue': '#1E2D56',
         'secondary-blue': '#7483AA',
         'light-blue': '#00A5FF',
-        'gray-darker': '#181818'
+        'gray-darker': '#181818',
+        'dark-brown': '#6f3b32',
+        'brown-light': '#b06117',
+        'orange-brown': '#F79240',
+        'white-pink': '#FFD9B8',
+        'brown-satu': '#c9691e',
+        'brown-dua': '#e79f4e',
+        'brown-tiga': '#662e07'
       },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans]

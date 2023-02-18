@@ -1,14 +1,14 @@
-import React from 'react'
-import { values } from 'mock/data'
-import SectionTitle from './SectionTitle'
-import { DotCircleIcon } from 'utils/Icons'
-import ValueList from 'components/ValueList'
-import SectionSubtitle from './SectionSubtitle'
-import SectionDescription from './SectionDescription'
+import React from "react";
+import { values } from "mock/data";
+import SectionTitle from "./SectionTitle";
+import { DotCircleIcon } from "utils/Icons";
+import ValueList from "components/ValueList";
+import SectionSubtitle from "./SectionSubtitle";
+import SectionDescription from "./SectionDescription";
 
 const ValuesSection: React.FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-9 mx-auto w-full px-4 md:px-0">
+    <section className="flex flex-col items-center justify-center py-9 mx-auto w-full px-4 md:px-0 bg-brown-dua">
       <div className="flex flex-col items-center justify-center space-y-4">
         <SectionSubtitle>Our Values</SectionSubtitle>
         <div className="relative flex items-center">
@@ -31,7 +31,7 @@ const ValuesSection: React.FC = () => {
         <ValueList values={values} />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ValuesSection
+export default ValuesSection;

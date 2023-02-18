@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 const HeroSection: React.FC = () => {
   return (
@@ -44,7 +44,7 @@ const HeroSection: React.FC = () => {
         />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;

@@ -1,21 +1,21 @@
-import Link from 'next/link'
-import { useState } from 'react'
-import { links } from 'mock/data'
-import { motion } from 'framer-motion'
-import ActiveLink from 'utils/ActiveLink'
-import { Transition } from '@headlessui/react'
-import { MenuIcon, CloseIcon, LogoLarge, LogoSmall } from 'utils/Icons'
+import Link from "next/link";
+import { useState } from "react";
+import { links } from "mock/data";
+import { motion } from "framer-motion";
+import ActiveLink from "utils/ActiveLink";
+import { Transition } from "@headlessui/react";
+import { MenuIcon, CloseIcon, LogoLarge, LogoSmall } from "utils/Icons";
 
 interface NavBarProps {
-  className: string
+  className: string;
 }
 
 const NavBar: React.FC<NavBarProps> = ({ className }) => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className={`${className} transition-all ease-in-out duration-300`}>
-      <div className="container flex items-center justify-between py-4 md:py-8 px-4 md:px-4">
+      <div className="container flex items-center justify-between py-4 md:py-8 px-4 md:px-4 bg-brown-satu">
         <Link href="/">
           <a aria-label="logos">
             <span className="hidden lg:block">
@@ -45,9 +45,9 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
                     <a
                       className={`
                         ${
-                          link.text === 'Home'
-                            ? 'border-b border-indigo-600 text-indigo-600'
-                            : 'border-transparent'
+                          link.text === "Home"
+                            ? "border-b border-indigo-600 text-indigo-600"
+                            : "border-transparent"
                         }
                         font-medium py-2 transition ease-out duration-200
                       `}
@@ -89,7 +89,7 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
               <nav>
                 <motion.ul
                   initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: 'auto', opacity: 1 }}
+                  animate={{ height: "auto", opacity: 1 }}
                   transition={{ duration: 0.15 }}
                   className="flex flex-col space-x-0 space-y-3"
                 >
@@ -113,7 +113,7 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
         </nav>
       </Transition>
     </header>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

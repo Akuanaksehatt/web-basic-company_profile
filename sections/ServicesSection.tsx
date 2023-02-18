@@ -1,14 +1,14 @@
-import React from 'react'
-import { services } from 'mock/data'
-import SectionTitle from './SectionTitle'
-import { DotCircleIcon } from 'utils/Icons'
-import SectionSubtitle from './SectionSubtitle'
-import ServiceList from 'components/ServiceList'
-import SectionDescription from './SectionDescription'
+import React from "react";
+import { services } from "mock/data";
+import SectionTitle from "./SectionTitle";
+import { DotCircleIcon } from "utils/Icons";
+import SectionSubtitle from "./SectionSubtitle";
+import ServiceList from "components/ServiceList";
+import SectionDescription from "./SectionDescription";
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-9 mx-auto w-full px-4 md:px-0">
+    <section className="flex flex-col items-center justify-center py-9 mx-auto w-full px-4 md:px-0 bg-brown-dua">
       <div className="flex flex-col items-center justify-center space-y-4 max-w-2xl">
         <SectionSubtitle>Our Services</SectionSubtitle>
         <div className="relative flex items-center text-center">
@@ -31,7 +31,7 @@ const ServicesSection: React.FC = () => {
         <ServiceList services={services} />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ServicesSection
+export default ServicesSection;

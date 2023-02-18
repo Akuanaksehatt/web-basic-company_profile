@@ -1,14 +1,14 @@
-import React from 'react'
-import Image from 'next/image'
-import SectionTitle from './SectionTitle'
-import SectionButton from './SectionButton'
-import { DotCircleIcon } from 'utils/Icons'
-import SectionSubtitle from './SectionSubtitle'
-import SectionDescription from './SectionDescription'
+import React from "react";
+import Image from "next/image";
+import SectionTitle from "./SectionTitle";
+import SectionButton from "./SectionButton";
+import { DotCircleIcon } from "utils/Icons";
+import SectionSubtitle from "./SectionSubtitle";
+import SectionDescription from "./SectionDescription";
 
 const AboutSection: React.FC = () => {
   return (
-    <section className="flex items-center justify-center py-9 mx-auto w-full px-4 md:px-0">
+    <section className="flex items-center justify-center py-9 mx-auto w-full px-4 md:px-0 bg-white-pink">
       <div className="relative w-[670px] h-[540px] flex-shrink-0 hidden lg:block">
         <Image
           src="/svgs/tree.svg"
@@ -56,7 +56,7 @@ const AboutSection: React.FC = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;

@@ -1,7 +1,7 @@
-import React from 'react'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
-import { FacebookLogo, TwitterLogo, InstagramLogo } from 'utils/Icons'
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { FacebookLogo, TwitterLogo, InstagramLogo } from "utils/Icons";
 
 const Footer: React.FC = () => {
   return (
@@ -59,20 +59,20 @@ const Footer: React.FC = () => {
             <h1 className="text-base font-semibold">Services</h1>
             <LinkList
               links={[
-                'Web Development',
-                'Web Design',
-                'UX/UI Design',
-                'Multimedia',
+                "Web Development",
+                "Web Design",
+                "UX/UI Design",
+                "Multimedia",
               ]}
             />
           </div>
           <div className="text-white space-y-4 text-sm">
             <h1 className="text-base font-semibold">About</h1>
-            <LinkList links={['Our Story', 'Locatioh', 'Team', 'Carrers']} />
+            <LinkList links={["Our Story", "Locatioh", "Team", "Carrers"]} />
           </div>
           <div className="text-white space-y-4 text-sm">
             <h1 className="text-base font-semibold">Help</h1>
-            <LinkList links={['FAQs', 'Contact Us']} />
+            <LinkList links={["FAQs", "Contact Us"]} />
           </div>
         </div>
       </div>
@@ -112,8 +112,8 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 function SocialButton({ children }) {
   return (
@@ -123,7 +123,7 @@ function SocialButton({ children }) {
     >
       {children}
     </button>
-  )
+  );
 }
 
 function LinkList({ links }) {
@@ -133,7 +133,7 @@ function LinkList({ links }) {
         <ListItem key={i} link={link} />
       ))}
     </ul>
-  )
+  );
 }
 
 function ListItem({ link }) {
@@ -147,7 +147,7 @@ function ListItem({ link }) {
         {link}
       </a>
     </li>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
