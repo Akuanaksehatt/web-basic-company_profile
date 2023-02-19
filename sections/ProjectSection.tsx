@@ -10,7 +10,6 @@ const ProjectSection: React.FC = () => {
   return (
     <section className="flex flex-col items-center justify-center py-9 mx-auto w-full px-4 md:px-0 bg-white-pink">
       <div className="flex flex-col items-center justify-center space-y-4">
-        <SectionSubtitle>Our Projects</SectionSubtitle>
         <div className="relative flex items-center">
           <div className="flex-shrink-0 absolute right-0">
             <DotCircleIcon />

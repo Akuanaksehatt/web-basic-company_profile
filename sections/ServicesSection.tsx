@@ -8,9 +8,8 @@ import SectionDescription from "./SectionDescription";
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-9 mx-auto w-full px-4 md:px-0 bg-brown-dua">
+    <section className="flex flex-col items-center justify-center py-9 mx-auto w-full px-4 md:px-0">
       <div className="flex flex-col items-center justify-center space-y-4 max-w-2xl">
-        <SectionSubtitle>Our Services</SectionSubtitle>
         <div className="relative flex items-center text-center">
           <div className="flex-shrink-0 absolute left-0 -mr-6 -top-4">
             <DotCircleIcon />

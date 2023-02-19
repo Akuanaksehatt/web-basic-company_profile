@@ -1,14 +1,14 @@
-import React from 'react'
-import Image from 'next/image'
-import SectionTitle from './SectionTitle'
-import SectionButton from './SectionButton'
-import { DotCircleIcon } from 'utils/Icons'
-import SectionSubtitle from './SectionSubtitle'
-import SectionDescription from './SectionDescription'
+import React from "react";
+import Image from "next/image";
+import SectionTitle from "./SectionTitle";
+import SectionButton from "./SectionButton";
+import { DotCircleIcon } from "utils/Icons";
+import SectionSubtitle from "./SectionSubtitle";
+import SectionDescription from "./SectionDescription";
 
 const VisionSection: React.FC = () => {
   return (
-    <section className="flex flex-row-reverse items-center justify-center py-9 mx-auto w-full px-4">
+    <section className="flex flex-row-reverse items-center justify-center py-9 mx-auto w-full px-4 bg-white-pink">
       <div className="flex-shrink-0 hidden lg:block">
         <Image
           src="/images/team.png"
@@ -23,7 +23,6 @@ const VisionSection: React.FC = () => {
       </div>
       <div className="flex flex-col space-y-16 w-full max-w-xl">
         <div className="space-y-4">
-          <SectionSubtitle>Our Vision</SectionSubtitle>
           <div className="relative flex items-center">
             <div className="flex-shrink-0 absolute -ml-4">
               <DotCircleIcon />
@@ -58,7 +57,7 @@ const VisionSection: React.FC = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default VisionSection
+export default VisionSection;

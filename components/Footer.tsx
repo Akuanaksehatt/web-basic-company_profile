@@ -5,7 +5,7 @@ import { FacebookLogo, TwitterLogo, InstagramLogo } from "utils/Icons";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-darker">
+    <footer className="bg-brown-empat">
       <div className="hidden md:block">
         <div className="flex items-center justify-between py-14  mx-auto max-w-7xl px-6">
           <div className="flex-shrink-0">
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
               Get a free consultation
             </h1>
             <motion.button
-              className="bg-primary-indigo hover:opacity-80 focus:opacity-100 text-white px-4 xl:px-12 py-3 rounded-lg text-lg font-medium focus:outline-none transition ease-in-out duration-200 hover:shadow-xl"
+              className="bg-brown-tiga hover:opacity-80 focus:opacity-100 text-white px-4 xl:px-12 py-3 rounded-lg text-lg font-medium focus:outline-none transition ease-in-out duration-200 hover:shadow-xl"
               whileHover={{ y: -4 }}
             >
               Contact

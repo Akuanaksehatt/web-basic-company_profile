@@ -25,9 +25,10 @@ module.exports = {
         'brown-light': '#b06117',
         'orange-brown': '#F79240',
         'white-pink': '#FFD9B8',
-        'brown-satu': '#c9691e',
+        'brown-satu': '#b5631b',
         'brown-dua': '#e79f4e',
-        'brown-tiga': '#662e07'
+        'brown-tiga': '#994409',
+        'brown-empat': '#ca8245'
       },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans]

@@ -20,7 +20,6 @@ const AboutSection: React.FC = () => {
       </div>
       <div className="flex flex-col space-y-8 w-full max-w-xl lg:max-w-md">
         <div className="space-y-4">
-          <SectionSubtitle>About Us</SectionSubtitle>
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="flex-shrink-0 absolute -ml-8">

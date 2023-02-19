@@ -15,7 +15,7 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
 
   return (
     <header className={`${className} transition-all ease-in-out duration-300`}>
-      <div className="container flex items-center justify-between py-4 md:py-8 px-4 md:px-4 bg-brown-satu">
+      <div className="container flex items-center justify-between py-4 md:py-8 px-4 md:px-4">
         <Link href="/">
           <a aria-label="logos">
             <span className="hidden lg:block">

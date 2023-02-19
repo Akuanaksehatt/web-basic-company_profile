@@ -1,16 +1,15 @@
-import React from 'react'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
-import SectionTitle from './SectionTitle'
-import SectionSubtitle from './SectionSubtitle'
-import SectionDescription from './SectionDescription'
-import { ChevronLeft, ChevronRight } from 'utils/Icons'
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import SectionTitle from "./SectionTitle";
+import SectionSubtitle from "./SectionSubtitle";
+import SectionDescription from "./SectionDescription";
+import { ChevronLeft, ChevronRight } from "utils/Icons";
 
 const FeedbackSection: React.FC = () => {
   return (
     <section className="flex flex-col items-center justify-center py-14 mx-auto w-full px-4 md:px-0">
       <div className="flex flex-col items-center justify-center space-y-4 max-w-lg text-center">
-        <SectionSubtitle>Feedbacks</SectionSubtitle>
         <SectionTitle>Our clients appreciate what we do</SectionTitle>
       </div>
       <div className="flex flex-col items-center py-14 space-y-4 max-w-3xl">
@@ -38,7 +37,7 @@ const FeedbackSection: React.FC = () => {
               in commodo id veniam magna duis quis. Tempor et excepteur veniam
               dolor amet nulla ipsum anim consectetur est proident aliquip esse.
               Aute irure magna enim laboris excepteur labore ea dolore eiusmod
-              id laboris. Ex officia dolore est consequat ullamco est{' '}
+              id laboris. Ex officia dolore est consequat ullamco est{" "}
             </span>
           </SectionDescription>
           <button
@@ -55,7 +54,7 @@ const FeedbackSection: React.FC = () => {
         </h1>
         <div className="text-center">
           <motion.button
-            className="bg-primary-indigo hover:opacity-80 focus:opacity-100 text-white px-4 xl:px-12 py-3 rounded-lg text-lg font-medium focus:outline-none transition ease-in-out duration-200 hover:shadow-xl"
+            className="bg-brown-tiga hover:opacity-80 focus:opacity-100 text-white px-4 xl:px-12 py-3 rounded-lg text-lg font-medium focus:outline-none transition ease-in-out duration-200 hover:shadow-xl"
             whileHover={{ y: -4 }}
           >
             Talk to US
@@ -63,7 +62,7 @@ const FeedbackSection: React.FC = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default FeedbackSection
+export default FeedbackSection;

@@ -1,7 +1,7 @@
-import React from 'react'
-import Image from 'next/image'
-import { IList } from 'mock/type'
-import { motion } from 'framer-motion'
+import React from "react";
+import Image from "next/image";
+import { IList } from "mock/type";
+import { motion } from "framer-motion";
 
 const ValueItem: React.FC<IList> = ({ icon, text }) => {
   return (
@@ -24,7 +24,7 @@ const ValueItem: React.FC<IList> = ({ icon, text }) => {
         </h1>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default ValueItem
+export default ValueItem;
