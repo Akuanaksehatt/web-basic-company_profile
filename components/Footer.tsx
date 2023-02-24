@@ -2,8 +2,20 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { FacebookLogo, TwitterLogo, InstagramLogo } from "utils/Icons";
+import Link from 'next/link'
+import MuiLink from '@mui/material/Link'
+import Fab from '@mui/material/Fab'
+import { SxProps } from '@mui/system'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 
 const Footer: React.FC = () => {
+  
+  const fabStyle = {
+    position: 'fixed',
+    bottom: 64,
+    right: 32,
+  }
+
   return (
     <footer className="bg-brown-empat">
       <div className="hidden md:block">
@@ -111,6 +123,20 @@ const Footer: React.FC = () => {
           </SocialButton>
         </div>
       </div>
+      <Link href="https://wa.me/081318188889" passHref>
+        <MuiLink
+          underline="hover"
+          sx={{
+            display: 'block',
+            mb: 1,
+            color: 'primary.contrastText',
+          }}
+        >
+          <Fab sx={fabStyle as SxProps} aria-label="Contact" color="primary">
+            <WhatsAppIcon />
+          </Fab>
+        </MuiLink>
+      </Link>
     </footer>
   );
 };
