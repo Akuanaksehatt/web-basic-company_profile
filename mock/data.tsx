@@ -1,78 +1,78 @@
-import { IList, ILink } from './type'
+import { IList, ILink } from "./type";
 
-export const values:IList[] = [
+export const values: IList[] = [
   {
-    icon: '/svgs/values/values1.svg',
-    text: 'Research and Discovery'
+    icon: "/svgs/values/values1.svg",
+    text: "Restore the health of the digestive system",
   },
   {
-    icon: '/svgs/values/values2.svg',
-    text: 'Validating and Shaping Idea'
+    icon: "/svgs/values/values2.svg",
+    text: "Keep skin healthy and rosy",
   },
   {
-    icon: '/svgs/values/values3.svg',
-    text: 'Design and Prototyping'
+    icon: "/svgs/values/values3.svg",
+    text: "Replenish energy for the body",
   },
   {
-    icon: '/svgs/values/values4.svg',
-    text: 'Development'
+    icon: "/svgs/values/values4.svg",
+    text: "Effective for migraine symptoms",
   },
   {
-    icon: '/svgs/values/values5.svg',
-    text: 'Testing and Quality Assurance'
+    icon: "/svgs/values/values5.svg",
+    text: "Helps fight flu symptoms",
   },
   {
-    icon: '/svgs/values/values6.svg',
-    text: 'Maintenance and Support'
-  }
-]
+    icon: "/svgs/values/values6.svg",
+    text: "Helps strengthen bones",
+  },
+];
 
 export const services = [
   {
-    icon: '/images/services/services1.png',
-    text: 'Software Development'
+    icon: "/images/services/kopi_gula.jpg",
+    text: "Palm Sugar Coffie",
   },
   {
-    icon: '/images/services/services2.png',
-    text: 'Multimedia Arts and Design'
+    icon: "/images/services/gula_kotak.jpeg",
+    text: "Aren Sugar blox",
   },
   {
-    icon: '/images/services/services3.png',
-    text: 'Web Development'
+    icon: "/images/services/aren_serbuk.jpg",
+    text: "Aren Sugar Powder",
   },
   {
-    icon: '/images/services/services4.png',
-    text: 'Web Design & Development'
+    icon: "/images/services/aren_cair (1).png",
+    text: "Aren Sugar Liquid",
   },
   {
-    icon: '/images/services/services5.png',
-    text: 'User Experience Design'
-  }
-]
+    icon: "/images/services/services5.png",
+    text: "User Experience Design",
+  },
+];
 
-export const links:ILink[] = [
+export const links: ILink[] = [
   {
-    text: 'Home',
-    to: '/'
+    text: "Home",
+    to: "/",
   },
   {
-    text: 'Services',
-    to: '/services'
+    text: "Services",
+    to: "/services",
   },
   {
-    text: 'About',
-    to: '/about'
+    text: "About",
+    to: "/about",
   },
   {
-    text: 'Case Studies',
-    to: '/case-studies'
+    text: "Case Studies",
+    to: "/case-studies",
   },
   {
-    text: 'Careers',
-    to: '/careers'
+    text: "Careers",
+    to: "/careers",
   },
   {
-    text: 'Contact',
-    to: '/contact'
-  }
-]
+    text: "Contact",
+    to: "/contact",
+  },
+];
