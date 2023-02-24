@@ -25,7 +25,7 @@ const AboutSection: React.FC = () => {
               <div className="flex-shrink-0 absolute -ml-8">
                 <DotCircleIcon />
               </div>
-              <SectionTitle>What makes us different?</SectionTitle>
+              <SectionTitle>What is about palm sugar</SectionTitle>
             </div>
             <div className="relative w-[100px] h-[100px] block lg:hidden">
               <Image
@@ -40,14 +40,11 @@ const AboutSection: React.FC = () => {
         </div>
         <div className="space-y-6">
           <SectionDescription>
-            Osomware offers out customers a wealth of technical and business
-            expertise. We create diverse, complex, web and mobile solutions for
-            any business need.
-          </SectionDescription>
-          <SectionDescription>
-            Out knowledge and experience translate to added value and peace of
-            mind for our customers. With Syberry you get quality software and
-            perfect service every time.
+            Palm sugar is a sweetener derived from any variety of palm tree and
+            palm sugar is much tastier than white sugar in addition to being
+            lower on the glycemic index than both white and brown sugar, but you
+            also get vitamin C and important minerals like iron, calcium and
+            zinc.
           </SectionDescription>
         </div>
         <div>

@@ -14,17 +14,8 @@ const ServicesSection: React.FC = () => {
           <div className="flex-shrink-0 absolute left-0 -mr-6 -top-4">
             <DotCircleIcon />
           </div>
-          <SectionTitle>
-            We have the skills and experience to serve you
-          </SectionTitle>
+          <SectionTitle>Our Best Product</SectionTitle>
         </div>
-      </div>
-      <div className="max-w-2xl pt-12">
-        <SectionDescription>
-          We help clients to design and develop future-proof, significant and
-          secure digital products that are centered around users needs and
-          fulfill client`s business goals.
-        </SectionDescription>
       </div>
       <div className="py-14 w-full max-w-5xl">
         <ServiceList services={services} />

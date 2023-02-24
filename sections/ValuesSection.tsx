@@ -14,16 +14,18 @@ const ValuesSection: React.FC = () => {
           <div className="flex-shrink-0 absolute right-0 -mr-4">
             <DotCircleIcon />
           </div>
-          <SectionTitle>Quality is our priority</SectionTitle>
+          <SectionTitle>Benefit from Palm Sugar</SectionTitle>
         </div>
       </div>
       <div className="max-w-4xl pt-12">
         <SectionDescription>
-          All our processes are customer-oriented, designed to reduce the cost
-          of business operations, address IT resourcing challenges, and offer
-          you a competitive edge. We start with a deep analysis of your
-          requirements and continue our relationship with post-launch support
-          and updates.
+          palm sugar as it is sometimes called, is a natural sugar made from the
+          sugary circulating fluid of the coconut plant called sap. Talking
+          about sugar being good for health, then natural sugar or stevia is the
+          best. They have many health benefits to offer apart from weight loss.
+          It has all the essential nutrients, vitamins, and minerals that are
+          essential for your body. While stevia is also known to be the best
+          sugar for weight loss.
         </SectionDescription>
       </div>
       <div className="px-0 sm:px-4 md:px-6 lg:px-10 xl:px-16 py-14">

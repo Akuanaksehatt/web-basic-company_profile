@@ -45,8 +45,8 @@ export const services = [
     text: "Aren Sugar Liquid",
   },
   {
-    icon: "/images/services/services5.png",
-    text: "User Experience Design",
+    icon: "/images/services/gula_jahe.jpg",
+    text: "Ginger Palm Sugar",
   },
 ];
 
@@ -56,19 +56,19 @@ export const links: ILink[] = [
     to: "/",
   },
   {
-    text: "Services",
+    text: "About",
     to: "/services",
   },
   {
-    text: "About",
+    text: "Benefit",
     to: "/about",
   },
   {
-    text: "Case Studies",
+    text: "Product",
     to: "/case-studies",
   },
   {
-    text: "Careers",
+    text: "Teams",
     to: "/careers",
   },
   {

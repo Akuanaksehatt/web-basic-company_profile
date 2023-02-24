@@ -7,16 +7,12 @@ const HeroSection: React.FC = () => {
     <section className="flex items-center justify-center py-16 mx-auto w-full px-2 md:px-4">
       <div className="flex flex-col space-y-8 px-2">
         <h1 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-snug tracking-wide text-brown-satu max-w-xl xl:max-w-2xl">
-          Software Development that fits your needs
+          Aren Nation local product going to export
         </h1>
         <div className="space-y-3">
           <p className="text-secondary-blue">
-            Full scale project development - Concept,
+            International quality local products and 100% of natural ingredients
           </p>
-          <p className="text-secondary-blue">
-            Architecture, Planning, UX/UI Design, Development
-          </p>
-          <p className="text-secondary-blue">QA and Project Management</p>
         </div>
         <div className="space-x-3 sm:space-x-4">
           <motion.button
@@ -29,7 +25,7 @@ const HeroSection: React.FC = () => {
       </div>
       <div className="relative w-[680px] h-[550px] flex-shrink-0 hidden xl:block">
         <Image
-          src="/svgs/hero.svg"
+          src="/images/services/aren_logi.jpeg"
           className="w-full h-full inset-0"
           blurDataURL="/svgs/hero.svg"
           layout="fill"

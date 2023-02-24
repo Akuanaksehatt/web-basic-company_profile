@@ -10,7 +10,7 @@ const FeedbackSection: React.FC = () => {
   return (
     <section className="flex flex-col items-center justify-center py-14 mx-auto w-full px-4 md:px-0">
       <div className="flex flex-col items-center justify-center space-y-4 max-w-lg text-center">
-        <SectionTitle>Our clients appreciate what we do</SectionTitle>
+        <SectionTitle>Our Testimonial Customer</SectionTitle>
       </div>
       <div className="flex flex-col items-center py-14 space-y-4 max-w-3xl">
         <div className="flex-shrink-0">
@@ -33,13 +33,12 @@ const FeedbackSection: React.FC = () => {
           </button>
           <SectionDescription>
             <span className="line-clamp-5">
-              Adipisicing exercitation eu proident ex cillum excepteur cupidatat
-              in commodo id veniam magna duis quis. Tempor et excepteur veniam
-              dolor amet nulla ipsum anim consectetur est proident aliquip esse.
-              Aute irure magna enim laboris excepteur labore ea dolore eiusmod
-              id laboris. Ex officia dolore est consequat ullamco est{" "}
+              This product is very good, the taste of sugar is natural and the
+              sweetness is also suitable for diabetics who want to reduce sweet
+              foods and drinks{" "}
             </span>
           </SectionDescription>
+
           <button
             className="hidden md:block rounded-full bg-white shadow-lg hover:shadow-xl focus:shadow-lg focus:outline-none"
             aria-label="arrow-right"
@@ -50,7 +49,7 @@ const FeedbackSection: React.FC = () => {
       </div>
       <div className="flex flex-col py-16 space-y-16">
         <h1 className="text-center text-2xl lg:text-4xl xl:text-5xl font-extrabold leading-snug tracking-wide text-primary-blue max-w-xl lg:max-w-full">
-          Have a project in mind?
+          Interested in our product?
         </h1>
         <div className="text-center">
           <motion.button
