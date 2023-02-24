@@ -39,14 +39,14 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
                 <li key={i}>
                   <ActiveLink
                     href={link.to}
-                    current="border-indigo-600 text-indigo-600"
+                    current="border-[#b5631b] text-[#b5631b]"
                     default=""
                   >
                     <a
                       className={`
                         ${
                           link.text === "Home"
-                            ? "border-b border-indigo-600 text-indigo-600"
+                            ? "border-b border-indigo-600 text-[#b5631b]"
                             : "border-transparent"
                         }
                         font-medium py-2 transition ease-out duration-200
@@ -97,10 +97,10 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
                     <li key={i}>
                       <ActiveLink
                         href={link.to}
-                        current="text-indigo-600 bg-indigo-100"
+                        current="text-[#b5631b] bg-indigo-100"
                         default=""
                       >
-                        <a className="block pl-4 bg-gray-100 hover:bg-indigo-100 hover:text-indigo-600 font-medium py-2 rounded-lg transition ease-in-out duration-200">
+                        <a className="block pl-4 bg-gray-100 hover:bg-indigo-100 hover:text-[#b5631b] font-medium py-2 rounded-lg transition ease-in-out duration-200">
                           {link.text}
                         </a>
                       </ActiveLink>

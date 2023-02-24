@@ -1,7 +1,7 @@
-import React from 'react'
-import Image from 'next/image'
-import { IList } from 'mock/type'
-import { motion } from 'framer-motion'
+import React from "react";
+import Image from "next/image";
+import { IList } from "mock/type";
+import { motion } from "framer-motion";
 
 const ServiceItem: React.FC<IList> = ({ icon, text }) => {
   return (
@@ -9,7 +9,7 @@ const ServiceItem: React.FC<IList> = ({ icon, text }) => {
       whileHover={{ y: -6 }}
       className="flex flex-col flex-wrap items-center justify-center max-w-md rounded-lg  cursor-default hover:shadow-xl py-8 space-y-6 px-4 transition ease-in-out duration-200"
     >
-      <div className="relative w-[150px] h-[135px] flex-shrink-0">
+      <div className="relative w-[200px] h-[150px] flex-shrink-0">
         <Image
           src={icon}
           layout="fill"
@@ -22,7 +22,7 @@ const ServiceItem: React.FC<IList> = ({ icon, text }) => {
         {text}
       </h1>
     </motion.div>
-  )
-}
+  );
+};
 
-export default ServiceItem
+export default ServiceItem;
