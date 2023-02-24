@@ -30,7 +30,7 @@ export const values: IList[] = [
 export const services = [
   {
     icon: "/images/services/kopi_gula.jpg",
-    text: "Palm Sugar Coffie",
+    text: "Palm Sugar Coffee",
   },
   {
     icon: "/images/services/gula_kotak.jpeg",

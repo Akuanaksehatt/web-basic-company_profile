@@ -2,19 +2,18 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { FacebookLogo, TwitterLogo, InstagramLogo } from "utils/Icons";
-import Link from 'next/link'
-import MuiLink from '@mui/material/Link'
-import Fab from '@mui/material/Fab'
-import { SxProps } from '@mui/system'
-import WhatsAppIcon from '@mui/icons-material/WhatsApp'
+import Link from "next/link";
+import MuiLink from "@mui/material/Link";
+import Fab from "@mui/material/Fab";
+import { SxProps } from "@mui/system";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Footer: React.FC = () => {
-  
   const fabStyle = {
-    position: 'fixed',
+    position: "fixed",
     bottom: 64,
     right: 32,
-  }
+  };
 
   return (
     <footer className="bg-brown-empat">
@@ -68,17 +67,6 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className="text-white space-y-4 text-sm">
-            <h1 className="text-base font-semibold">Services</h1>
-            <LinkList
-              links={[
-                "Web Development",
-                "Web Design",
-                "UX/UI Design",
-                "Multimedia",
-              ]}
-            />
-          </div>
-          <div className="text-white space-y-4 text-sm">
             <h1 className="text-base font-semibold">About</h1>
             <LinkList links={["Our Story", "Locatioh", "Team", "Carrers"]} />
           </div>
@@ -91,24 +79,8 @@ const Footer: React.FC = () => {
       <div className="flex flex-col-reverse sm:flex-row items-center justify-between pb-24 max-w-7xl mx-auto px-6">
         <div>
           <ul className="flex items-center space-x-10">
-            <li>
-              <a
-                href="#"
-                className="text-sm text-white cursor-pointer hover:underline"
-                aria-label="term-and-condition"
-              >
-                Terms & Condition
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-sm text-white cursor-pointer hover:underline"
-                aria-label="privacy-policy"
-              >
-                Privacy Policy
-              </a>
-            </li>
+            <li></li>
+            <li></li>
           </ul>
         </div>
         <div className="flex items-center space-x-4">
@@ -123,13 +95,13 @@ const Footer: React.FC = () => {
           </SocialButton>
         </div>
       </div>
-      <Link href="https://wa.me/081318188889" passHref>
+      <Link href="https://wa.me/+6281318188889" passHref>
         <MuiLink
           underline="hover"
           sx={{
-            display: 'block',
+            display: "block",
             mb: 1,
-            color: 'primary.contrastText',
+            color: "primary.contrastText",
           }}
         >
           <Fab sx={fabStyle as SxProps} aria-label="Contact" color="primary">
