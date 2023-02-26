@@ -53,7 +53,7 @@ export const services = [
 export const links: ILink[] = [
   {
     text: "Home",
-    to: "/",
+    to: "#",
   },
   {
     text: "About",

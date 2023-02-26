@@ -12,7 +12,7 @@ interface NavBarProps {
 
 const NavBar: React.FC<NavBarProps> = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const [activeLink, setActiveLink] = useState("home");
   return (
     <header className={`${className} transition-all ease-in-out duration-300`}>
       <div className="container flex items-center justify-between py-4 md:py-8 px-4 md:px-4">
@@ -40,13 +40,14 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
                     <a
                       className={`
                         ${
-                          link.text === "Home"
+                          link.text === activeLink
                             ? "border-b border-indigo-600 text-[#b5631b]"
                             : "border-transparent"
                         }
                         font-medium py-2 transition ease-out duration-200
                       `}
                       href={link.to}
+                      onClick={() => setActiveLink(link.text)}
                     >
                       {link.text}
                     </a>
