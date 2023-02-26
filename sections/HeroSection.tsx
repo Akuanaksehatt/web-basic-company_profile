@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="flex items-center justify-center py-16 mx-auto w-full px-2 md:px-4">
+    <section id="home" className="flex items-center justify-center py-16 mx-auto w-full px-2 md:px-4">
       <div className="flex flex-col space-y-8 px-2">
         <h1 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-snug tracking-wide text-brown-satu max-w-xl xl:max-w-2xl">
           Aren Nation local product going to export

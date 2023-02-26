@@ -42,7 +42,7 @@ const Layout: React.FC = ({ children }) => {
             }`}
           />
         </Sticky>
-        <main className="container">{children}</main>
+        <main className="container" >{children}</main>
       </div>
       <Footer />
     </React.Fragment>

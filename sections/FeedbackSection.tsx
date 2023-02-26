@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight } from "utils/Icons";
 
 const FeedbackSection: React.FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-14 mx-auto w-full px-4 md:px-0">
+    <section id="testimonal" className="flex flex-col items-center justify-center py-14 mx-auto w-full px-4 md:px-0">
       <div className="flex flex-col items-center justify-center space-y-4 max-w-lg text-center">
         <SectionTitle>Our Testimonial Customer</SectionTitle>
       </div>

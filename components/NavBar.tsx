@@ -37,11 +37,6 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
             <ul className="flex items-center space-x-6">
               {links.map((link, i) => (
                 <li key={i}>
-                  <ActiveLink
-                    href={link.to}
-                    current="border-[#b5631b] text-[#b5631b]"
-                    default=""
-                  >
                     <a
                       className={`
                         ${
@@ -51,11 +46,11 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
                         }
                         font-medium py-2 transition ease-out duration-200
                       `}
+                      href={link.to}
                     >
                       {link.text}
                     </a>
-                  </ActiveLink>
-                </li>
+                  </li>
               ))}
             </ul>
           </div>

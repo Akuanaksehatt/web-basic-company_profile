@@ -57,22 +57,22 @@ export const links: ILink[] = [
   },
   {
     text: "About",
-    to: "/services",
+    to: "#about",
   },
   {
     text: "Benefit",
-    to: "/about",
+    to: "#benefit",
   },
   {
     text: "Product",
-    to: "/case-studies",
+    to: "#product",
   },
   {
     text: "Teams",
-    to: "/careers",
+    to: "#team",
   },
   {
-    text: "Contact",
-    to: "/contact",
+    text: "Testimonal",
+    to: "#testimonal",
   },
 ];

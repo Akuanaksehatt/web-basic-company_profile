@@ -8,7 +8,7 @@ import SectionDescription from "./SectionDescription";
 
 const AboutSection: React.FC = () => {
   return (
-    <section className="flex items-center justify-center py-9 mx-auto w-full px-4 md:px-0 bg-white-pink">
+    <section id="about" className="flex items-center justify-center py-9 mx-auto w-full px-4 md:px-0 bg-white-pink">
       <div className="relative w-[670px] h-[540px] flex-shrink-0 hidden lg:block">
         <Image
           src="/svgs/tree.svg"

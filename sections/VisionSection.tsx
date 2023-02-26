@@ -8,7 +8,7 @@ import SectionDescription from "./SectionDescription";
 
 const VisionSection: React.FC = () => {
   return (
-    <section className="flex flex-row-reverse items-center justify-center py-9 mx-auto w-full px-4 bg-white-pink">
+    <section id="team" className="flex flex-row-reverse items-center justify-center py-9 mx-auto w-full px-4 bg-white-pink">
       <div className="flex-shrink-0 hidden lg:block">
         <Image
           src="/images/team.png"

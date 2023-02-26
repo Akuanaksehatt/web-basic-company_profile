@@ -15,6 +15,20 @@ const Footer: React.FC = () => {
     right: 32,
   };
 
+  const listLink = [
+    {"name" : "Home", "href" : '#'}, 
+    {"name" : "About", "href" : '#about'}, 
+    {"name" : "Benefit", "href" : '#benefit'}, 
+    {"name" : "Product", "href" : '#products'},
+    {"name" : "Teams", "href" : '#team'},
+    {"name" : "Testimonal", "href" : '#testimonal'}
+  ]
+
+  const listLink2 = [
+    {"name" : "FAQs", "href" :  "#faq"}, 
+    {"name": "Contact Us", "href" :  "wa.me/083728178281"}
+  ]
+  
   return (
     <footer className="bg-brown-empat">
       <div className="hidden md:block">
@@ -57,7 +71,7 @@ const Footer: React.FC = () => {
                   />
                 </div>
               </div>
-              <div className="flex items-center border-b border-indigo-300 opacity-75 py-2">
+              <div className="flex items-center text-white border-b border-indigo-300 opacity-75 py-2">
                 <input
                   className="appearance-none bg-transparent border-none w-full text-white py-1 leading-tight focus:outline-none"
                   type="text"
@@ -68,11 +82,11 @@ const Footer: React.FC = () => {
           </div>
           <div className="text-white space-y-4 text-sm">
             <h1 className="text-base font-semibold">About</h1>
-            <LinkList links={["Our Story", "Locatioh", "Team", "Carrers"]} />
+            <LinkList links={listLink} />
           </div>
           <div className="text-white space-y-4 text-sm">
             <h1 className="text-base font-semibold">Help</h1>
-            <LinkList links={["FAQs", "Contact Us"]} />
+            <LinkList links={listLink2} />
           </div>
         </div>
       </div>
@@ -128,17 +142,17 @@ function LinkList({ links }) {
   return (
     <ul className="space-y-4">
       {links.map((link, i) => (
-        <ListItem key={i} link={link} />
+        <ListItem key={i} link={link.name} href={link.href} />
       ))}
     </ul>
   );
 }
 
-function ListItem({ link }) {
+function ListItem({ link , href}) {
   return (
     <li>
       <a
-        href="#"
+        href={href}
         className="hover:underline cursor-pointer"
         aria-label="business-link"
       >
