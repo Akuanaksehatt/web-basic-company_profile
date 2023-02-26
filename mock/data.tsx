@@ -27,6 +27,40 @@ export const values: IList[] = [
   },
 ];
 
+export const shipping: IList[] = [
+  {
+    icon: "/svgs/values/values1.svg",
+    text: "Aircraft",
+  },
+  {
+    icon: "/svgs/values/values2.svg",
+    text: "Shipment",
+  },
+  {
+    icon: "/svgs/values/values3.svg",
+    text: "Container",
+  },
+];
+
+export const payment: IList[] = [
+  {
+    icon: "/svgs/values/values1.svg",
+    text: "Transfer Bank",
+  },
+  {
+    icon: "/svgs/values/values2.svg",
+    text: "Letter Of Credit",
+  },
+  {
+    icon: "/svgs/values/values3.svg",
+    text: "First Fund",
+  },
+  {
+    icon: "/svgs/values/values4.svg",
+    text: "Payment Order",
+  },
+];
+
 export const services = [
   {
     icon: "/images/services/kopi_gula.jpg",

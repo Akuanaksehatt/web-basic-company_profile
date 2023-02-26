@@ -5,31 +5,39 @@ import dynamic from "next/dynamic";
 import Layout from "layouts/default";
 
 const HeroSection = dynamic(() => import("sections/HeroSection"), {
-  ssr: false,
+  ssr: true,
 });
 
 const AboutSection = dynamic(() => import("sections/AboutSection"), {
-  ssr: false,
+  ssr: true,
 });
 
 const ValuesSection = dynamic(() => import("sections/ValuesSection"), {
-  ssr: false,
+  ssr: true,
 });
 
 const ProjectSection = dynamic(() => import("sections/ProjectSection"), {
-  ssr: false,
+  ssr: true,
 });
 
 const ServicesSection = dynamic(() => import("sections/ServicesSection"), {
-  ssr: false,
+  ssr: true,
 });
 
 const VisionSection = dynamic(() => import("sections/VisionSection"), {
-  ssr: false,
+  ssr: true,
 });
 
 const FeedbackSection = dynamic(() => import("sections/FeedbackSection"), {
-  ssr: false,
+  ssr: true,
+});
+
+const FaqSection = dynamic(() => import("sections/FaqSection"), {
+  ssr: true,
+});
+
+const ShipmentSection = dynamic(() => import("sections/ShipmentSection"), {
+  ssr : true,
 });
 
 const Index: NextPage = () => {
@@ -45,7 +53,9 @@ const Index: NextPage = () => {
         <ValuesSection />
         <ProjectSection />
         <ServicesSection />
+        <ShipmentSection />
         <VisionSection />
+        <FaqSection />
         <FeedbackSection />
       </Layout>
     </React.Fragment>
