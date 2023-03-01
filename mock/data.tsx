@@ -29,34 +29,34 @@ export const values: IList[] = [
 
 export const shipping: IList[] = [
   {
-    icon: "/svgs/values/values1.svg",
+    icon: "/svgs/values/plane_con.jpg",
     text: "Aircraft",
   },
   {
-    icon: "/svgs/values/values2.svg",
+    icon: "/svgs/values/Cargo_ship.svg",
     text: "Shipment",
   },
   {
-    icon: "/svgs/values/values3.svg",
+    icon: "/svgs/values/Cargo_Con.svg",
     text: "Container",
   },
 ];
 
 export const payment: IList[] = [
   {
-    icon: "/svgs/values/values1.svg",
-    text: "Transfer Bank",
+    icon: "/svgs/values/bank-transfer.svg",
+    text: "Bank Transfer",
   },
   {
-    icon: "/svgs/values/values2.svg",
+    icon: "/svgs/values/Letter Of Credit.jpg",
     text: "Letter Of Credit",
   },
   {
-    icon: "/svgs/values/values3.svg",
+    icon: "/svgs/values/8808724.png",
     text: "First Fund",
   },
   {
-    icon: "/svgs/values/values4.svg",
+    icon: "/svgs/values/bill.png",
     text: "Payment Order",
   },
 ];
@@ -94,12 +94,12 @@ export const links: ILink[] = [
     to: "#about",
   },
   {
-    text: "Benefit",
-    to: "#benefit",
-  },
-  {
     text: "Product",
     to: "#product",
+  },
+  {
+    text: "S & P",
+    to: "#shipment",
   },
   {
     text: "Teams",
